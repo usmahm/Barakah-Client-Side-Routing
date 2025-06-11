@@ -1,0 +1,97 @@
+.github-search {
+  padding: 0.2rem 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.github-search h2 {
+  font-size: 2rem;
+  color: #111;
+  font-weight: 800;
+}
+
+.github-search input {
+  display: block;
+  margin-bottom: 1rem;
+  height: 2rem;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #cfd7da;
+  padding: 0.2rem 0.7rem;
+}
+
+.search-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.search-controls div {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: #cfd7da;
+}
+
+.search-controls select:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+.search-controls .sort-filters:hover {
+  background-color: blue;
+}
+.search-controls > div > label {
+  font-size: 1rem;
+}
+
+.sort-filters {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-controls > div > select {
+  border: none;
+  background-color: #cfd7da;
+  padding: 0.2rem 0.7rem;
+  font-size: 1rem;
+}
+
+.repo-list {
+  margin-top: 1rem;
+}
+
+.repo-card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background: white;
+}
+
+.repo-card a {
+  text-decoration: none;
+  color: #0366d6;
+  font-size: 1.2rem;
+}
+
+.repo-card p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.repo-card .tags span {
+  display: inline-block;
+  background: #dce7f3;
+  color: #0366d6;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  margin-right: 0.25rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.rating-date {
+  font-size: 0.8rem;
+  color: #586069;
+  margin-bottom: 0.5rem;
+}

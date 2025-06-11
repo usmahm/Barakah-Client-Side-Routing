@@ -1,0 +1,71 @@
+.contact-card {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: white;
+  width: 280px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact-name {
+  font-size: 1.2rem;
+  color: #111;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+#contact-location {
+  font-size: 1rem;
+  color: #222;
+  margin-bottom: 1.8rem;
+}
+
+.contact-card input {
+  display: block;
+  margin: 0;
+}
+
+.edit-btn {
+  margin: 0.25rem;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #cfcdcd;
+  color: #111;
+  cursor: pointer;
+  font-size: 0.9rem;
+  /* margin-left: 10rem; */
+}
+.edit-btn:hover {
+  background-color: #968f8f;
+}
+#edit-buttons {
+  display: flex;
+  gap: 5rem;
+  margin-left: 0;
+  margin-top: 1.25rem;
+}
+#edit-buttons button {
+  border: none;
+  border-radius: 4px;
+  width: 60px;
+}
+#edit-buttons button:hover {
+  cursor: pointer;
+}
+#label-input-edit {
+  display: flex;
+  margin-bottom: 0.25rem;
+}
+#delete-button {
+  background-color: #e63250;
+  color: white;
+}
+#delete-button:hover {
+  background: #dd0e31;
+}
+#save-button {
+  background-color: #0e62e9;
+  color: white;
+}
+#save-button:hover {
+  background-color: #3e2fca;
+}
